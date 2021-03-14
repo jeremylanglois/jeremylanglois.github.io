@@ -896,7 +896,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
     position: relative;
     /*margin-left: -50vw;*/
     /*left: 50%;*/
-    padding: 10px 0px;
+    padding: 10px 40px;
     border-radius: 25px;
 }
 
