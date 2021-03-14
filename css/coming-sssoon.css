@@ -781,6 +781,7 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 
 .main {
+    background-image: url('../images/background.jpg');
     background-position: center center;
     background-size: cover;
     height: auto;
@@ -873,9 +874,13 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 }
 
-.motto {
+.content-text {
     font-family: "Raleway";
     font-weight: bold;
+    font-size: 28px;
+    color: #FFFFFF;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.33);
+    text-align: center;
 }
 
 .main .content {
@@ -887,12 +892,14 @@ h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
 
 .container-background {
     background: rgba(128, 108, 130, 0.66);
-    width: 100vw;
+    /*width: 100vw;*/
     position: relative;
-    margin-left: -50vw;
-    left: 50%;
+    /*margin-left: -50vw;*/
+    /*left: 50%;*/
     padding: 10px 0px;
+    border-radius: 25px;
 }
+
 
 .main .motto {
     min-height: 100px;
